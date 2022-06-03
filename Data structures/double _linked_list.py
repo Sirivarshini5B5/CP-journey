@@ -118,5 +118,8 @@ print("\ndelete at postion:")
 d.deleteatposition(1)
 d.display()
 print("\n element to be searched:")
-d.search(3)
-d.display()
+print("\nelement to be searched:")
+if d.search(2):
+    print("element found")
+else:
+    print("element not found")
